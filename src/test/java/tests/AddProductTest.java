@@ -22,7 +22,7 @@ import static org.junit.Assert.*;
 
 
 
-public class AddProduct {
+public class AddProductTest {
 
     private WebDriver driver;
 

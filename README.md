@@ -16,4 +16,4 @@ O projeto consome uma massa de testes de um arquivo .csv que está na raiz e ao 
 
 #Executando o projeto
 
-Para rodar o projeto depois de configurado os requisitos citados acima, basta clicar no botão "play" dentro da classe AddProductTest ou se quiser rodar por linha de comando. basta executar o seguinte comando: mvn clean test -Dtest=tests.AddProduct
+Para rodar o projeto depois de configurado os requisitos citados acima, basta clicar no botão "play" dentro da classe AddProductTest ou se quiser rodar por linha de comando. basta executar o seguinte comando: mvn clean test -Dtest=tests.AddProductTest
