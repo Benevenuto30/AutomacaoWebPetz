@@ -1,0 +1,8 @@
+support\Web.class
+pages\ProductsPage.class
+pages\ProductDetailsPage.class
+pages\HomePage.class
+pages\CheckoutPage.class
+support\Generate.class
+support\Screenshot.class
+tests\AddProduct.class

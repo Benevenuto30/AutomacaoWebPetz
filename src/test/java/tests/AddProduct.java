@@ -3,6 +3,7 @@ package tests;
 import org.easetech.easytest.annotation.DataLoader;
 import org.easetech.easytest.annotation.Param;
 import org.easetech.easytest.runner.DataDrivenTestRunner;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
@@ -49,10 +50,14 @@ public class AddProduct {
         assertEquals(priceProductPage,priceProductDetailsPage);
         Screenshot.take(driver,"screenshot/"+ Generate.dateTimeForFile()+test.getMethodName()+".png");
         assertEquals(priceSubProductPage,priceSubProductDetaislPage);
+        Screenshot.take(driver,"screenshot/"+ Generate.dateTimeForFile()+test.getMethodName()+".png");
         assertEquals(validadeChart,"insira seu cupom/vale");
+        Screenshot.take(driver,"screenshot/"+ Generate.dateTimeForFile()+test.getMethodName()+".png");
+    }
 
-
-
+    @After
+    public void tearDown(){
+        driver.quit();
     }
 
 }

@@ -7,6 +7,7 @@ public class ProductsPage extends HomePage{
     public ProductsPage(WebDriver driver) {
         super(driver);
     }
+
     public ProductDetailsPage selectThirdProduct(){
         driver.findElement(By.xpath("//*[@id=\"gridProdutos\"]/li[3]")).click();
         return new ProductDetailsPage(driver);

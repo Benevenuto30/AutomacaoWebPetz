@@ -7,6 +7,7 @@ public class ProductDetailsPage extends HomePage{
     public ProductDetailsPage(WebDriver driver) {
         super(driver);
     }
+
     public String price (){
         String price = driver.findElement(By.className("price-current")).getText();
         return price;
