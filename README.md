@@ -1,4 +1,8 @@
-# AutomacaoWebPetz
+# Automação Web Petz
+
+#Tecnologias:
+
+Java + Selenium + Maven
 
 #Pre requisitos para rodar em Windows:
 
